@@ -50,6 +50,9 @@ public class Student {
 	public void setDepartment(String department) {
 		this.department = department;
 	}
+	public Student() {
+		
+	}
 	public Student(int _id, String firstname, String lastname, int age, String email, String department) {
 		super();
 		this._id = _id;
